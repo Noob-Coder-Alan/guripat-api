@@ -1,10 +1,9 @@
 {
+  "name": "default",
   "type": "postgres",
-  "host": "localhost",
-  "port": 5432,
-  "username": "postgres",
-  "password": "postgres",
-  "database": "guripat",
-  "entities": ["./src/models/*.ts"],
-  "synchronize": true
+  "url": "postgres://uqsgswyrfpewrk:9be147a95f939ceff621ac5f0829973ec080b0c33d7503b4ea18da04c2c0a1ff@ec2-52-45-179-101.compute-1.amazonaws.com:5432/df0lps6gf91qnl",
+  "synchronize": true,
+  "logging": true,
+  "ssl" : { "rejectUnauthorized": false },
+  "entities": ["./src/models/*.ts"]
 }
